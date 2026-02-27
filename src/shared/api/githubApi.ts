@@ -82,4 +82,8 @@ export const githubApi = createApi({
   })
 });
 
-export const { useLazySearchRepositoriesQuery, useLazyGetRepositoryDetailsQuery } = githubApi;
+export const {
+  useSearchRepositoriesQuery,
+  useLazySearchRepositoriesQuery,
+  useLazyGetRepositoryDetailsQuery
+} = githubApi;
