@@ -1,0 +1,1 @@
+export { RepositoryDetailsWidget } from './RepositoryDetailsWidget';

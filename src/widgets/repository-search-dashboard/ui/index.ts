@@ -1,0 +1,1 @@
+export { RepositorySearchDashboard } from './RepositorySearchDashboard';

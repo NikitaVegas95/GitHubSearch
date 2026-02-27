@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+
+  @media (width <= 640px) {
+    flex-direction: column;
+  }
+}

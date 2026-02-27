@@ -1,0 +1,16 @@
+.backLink {
+  color: #0b5ed7;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.status {
+  margin-top: 16px;
+}
+
+.error {
+  color: #b82318;
+}

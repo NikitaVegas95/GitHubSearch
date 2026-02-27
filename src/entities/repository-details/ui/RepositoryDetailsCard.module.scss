@@ -1,0 +1,39 @@
+.card {
+  padding: 20px;
+  margin-top: 16px;
+  background-color: #fff;
+  border: 1px solid #d9e1e9;
+  border-radius: 12px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.description {
+  margin: 0;
+  color: #2f3f53;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 18px;
+  color: #0b5ed7;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

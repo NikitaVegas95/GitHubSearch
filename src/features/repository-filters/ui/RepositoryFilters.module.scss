@@ -1,0 +1,18 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+
+  @media (width <= 640px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.button {
+  padding: 10px 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #c8d0d8;
+  border-radius: 8px;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.ghost {
+  background-color: #f7f9fb;
+}

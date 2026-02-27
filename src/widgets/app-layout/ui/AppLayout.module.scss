@@ -1,0 +1,26 @@
+.layout {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  padding: 0 24px;
+  margin: 0 auto;
+
+  @media (width <= 640px) {
+    padding: 0 16px;
+  }
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #d9e1e9;
+}
+
+.brand {
+  display: inline-block;
+  padding: 14px 0;
+  font-weight: 700;
+  color: #12263a;
+  text-decoration: none;
+}

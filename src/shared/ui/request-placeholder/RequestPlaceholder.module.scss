@@ -1,0 +1,45 @@
+.wrapper {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #d9e1e9;
+  border-radius: 10px;
+}
+
+.line {
+  height: 12px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #e7edf3 25%, #f1f5f9 50%, #e7edf3 75%);
+  background-size: 200% 100%;
+  border-radius: 999px;
+  animation: shimmer 1.2s infinite linear;
+
+  &:nth-child(2n) {
+    width: 92%;
+  }
+
+  &:nth-child(3n) {
+    width: 75%;
+  }
+}
+
+.title {
+  width: 55%;
+  height: 16px;
+  margin-top: 0;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}

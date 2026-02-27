@@ -1,0 +1,1 @@
+export { RepositoryDetailsCard } from './RepositoryDetailsCard';
