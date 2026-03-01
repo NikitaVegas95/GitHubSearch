@@ -2,7 +2,7 @@
   padding: 24px;
   margin-top: 24px;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--color-surface-primary);
   border-radius: 12px;
 }
 
@@ -10,26 +10,26 @@
   margin: 0;
   font-size: 14px;
   font-weight: 700;
-  color: #6b7280;
+  color: var(--color-text-muted);
   letter-spacing: 0.08em;
 }
 
 .title {
   margin: 8px 0 0;
   font-size: 28px;
-  color: #0f172a;
+  color: var(--color-text-strong);
 }
 
 .description {
   margin: 12px 0 0;
-  color: #374151;
+  color: var(--color-text-default);
 }
 
 .link {
   display: inline-block;
   margin-top: 20px;
   font-weight: 600;
-  color: #2563eb;
+  color: var(--color-link-accent);
   text-decoration: none;
 
   &:hover {

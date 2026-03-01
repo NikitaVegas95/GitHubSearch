@@ -1,5 +1,5 @@
 .backLink {
-  color: #0b5ed7;
+  color: var(--color-link-primary);
   text-decoration: none;
 
   &:hover {
@@ -12,5 +12,5 @@
 }
 
 .error {
-  color: #b82318;
+  color: var(--color-danger);
 }

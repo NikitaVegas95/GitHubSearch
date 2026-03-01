@@ -1,8 +1,8 @@
 .card {
   padding: 20px;
   margin-top: 16px;
-  background-color: #fff;
-  border: 1px solid #d9e1e9;
+  background-color: var(--color-surface-primary);
+  border: 1px solid var(--color-border-primary);
   border-radius: 12px;
 }
 
@@ -13,7 +13,7 @@
 
 .description {
   margin: 0;
-  color: #2f3f53;
+  color: var(--color-text-body);
 }
 
 .grid {
@@ -30,7 +30,7 @@
 .link {
   display: inline-block;
   margin-top: 18px;
-  color: #0b5ed7;
+  color: var(--color-link-primary);
   text-decoration: none;
 
   &:hover {
